@@ -1,0 +1,5 @@
+#1 http protocol connection established using port 80 shows host, connection, user-agent etc. information when clicked and analyzed the packet.
+
+#2 dns protocol used to query the dns server for getting the ip address from the name of the address. As shown in the packet capture "api.themovied.org" is queried for its ip address.
+
+#3 tcp protocol is used as a connection oriented protocol which uses three way handshake to establish connection between client and the server. As shown in the screenshot, it uses SYN, SYN-ACK, ACK to communicate which guarantees delivery of the intended packet. Also, as a part of flow control it uses sequence number to keep track and orderly deliver the packets.
